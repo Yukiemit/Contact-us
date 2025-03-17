@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1>
+            <img src="./logo (1).png" alt="Vitaly Tea Logo" style="vertical-align: middle; width: auto; height: 1.5em;" />Vitaly Tea</h1>
+    </div>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="contact">
+        <h2>Get in touch</h2>
+        <p>Looking to connect? We'd be thrilled to hear from you. Here's how you can contact us.</p>
+
+        <div class="contact-options">
+            <div class="contact-box">
+                <h3>Talk to Sales</h3>
+                <p>Want to learn more about Print N' Dine? Give us a call to speak with our sales team.</p>
+                <p>+63 908 651 7314</p>
+            </div>
+            <div class="contact-box">
+                <h3>Contact Customer Support</h3>
+                <p>Need assistance? Our Print N' Dine support team is here to help you with any questions or issues you may have.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="global-offices">
+        <div class="office-info">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15443.644423494241!2d120.9783464189715!3d14.60413953956936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9f8b14eb259%3A0xad4d12caac9a068e!2sFEU%20Institute%20of%20Technology!5e0!3m2!1sen!2sph!4v1741797216959!5m2!1sen!2sph" 
+                    width="450px" 
+                    height="450" 
+                    style="border: 0; border-radius: 10px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="office-details">
+                <h4>Our Location</h4>
+                <h3 class="office-title">FEU Institute of Technology</h3>
+                <p class="office-address">Padre Paredes St, Sampaloc, Manila, 1015 Metro Manila</p>
+                <p class="office-phone"><strong>Phone:</strong> 0953 194 3900</p>
+            </div>
+        </div>
+    </section>
+
+<div class="contactclass">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <h3>✅ Message Sent!</h3>
+                <p>Thank you for reaching out to us. We will get back to you soon.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Vitaly Tea</div>
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#about">About Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-underline"></div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 All Rights Reserved</p>
+            <div class="social-icons">
+                <a href="facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
