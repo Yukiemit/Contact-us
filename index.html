@@ -6,23 +6,72 @@
     <title>Contact us</title>
     <link rel="stylesheet" href="./style.css">
     <script defer src="./script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="header">
-        <h1>
-            <img src="./logo (1).png" alt="Vitaly Tea Logo" style="vertical-align: middle; width: auto; height: 1.5em;" />Vitaly Tea</h1>
+     <!-- Header -->
+
+     <div id="header">
+
+        <h1 id="logo">
+
+            <img src="./logo (1).png" alt="Vitaly Tea Logo" style="vertical-align: middle; width: auto; height: 1.5em;" />
+
+            Vitaly Tea
+
+        </h1>
+
+        <div id="cart-container">
+
+            <a href="cart.html" class="cart-link">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span id="cart-count">0</span>
+
+            </a>
+
+        </div>
+
     </div>
 
+    
+
+    <!-- Navigation Bar -->
+
     <div id="navbar">
+
         <ul>
-            <li><a href="#home">Home</a></li>
+
+            <li><a href="index.html">Home</a></li>
+
             <li><a href="#services">Services</a></li>
-            <li><a href="#menu">Menu</a></li>
+
+            <li class="menu-dropdown">
+
+                <a href="menu.html">Menu</a>
+
+                <div class="dropdown-content">
+
+                    <a href="menu.html#cold-drinks">Cold Drinks</a>
+
+                    <a href="menu.html#warm-drinks">Warm Drinks</a>
+
+                    <a href="menu.html#sandwiches">Sandwiches</a>
+
+                </div>
+
+            </li>
+
             <li><a href="#order">Order</a></li>
+
             <li><a href="#about">About Us</a></li>
+
             <li><a href="#contact">Contact</a></li>
+
         </ul>
+
     </div>
 
     <section class="contact">
@@ -92,27 +141,52 @@
     </div>
 </div>
 
-    <div id="footer">
+     <!-- Footer -->
+
+     <div id="footer">
+
         <div class="footer-content">
+
             <div class="footer-logo">Vitaly Tea</div>
+
             <div class="footer-links">
+
                 <div class="footer-nav">
-                    <a href="#blog">Blog</a>
+
+                    <a href="#services">Services</a>
+
                     <a href="#contact">Contact Us</a>
+
                     <a href="#about">About Us</a>
+
                 </div>
+
             </div>
+
         </div>
+
+        
 
         <div class="footer-underline"></div>
 
+        
+
         <div class="footer-bottom">
+
             <p>&copy; 2025 All Rights Reserved</p>
+
             <div class="social-icons">
-                <a href="facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
+                <p>Follow us</p>
+
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
             </div>
+
         </div>
+
     </div>
 </body>
 </html>
